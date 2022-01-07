@@ -25,9 +25,9 @@ git clone https://github.com/linbeta/Super_Mario.git
 
 Make sure your Python interpreter and venv is set up correctly.
 
-[!image](https://github.com/linbeta/Super_Mario/blob/main/how_to/select_interpreter.png)
+![image](https://github.com/linbeta/Super_Mario/blob/main/how_to/select_interpreter.png)
 
-[!image](https://github.com/linbeta/Super_Mario/blob/main/how_to/venv_setting.png)
+![image](https://github.com/linbeta/Super_Mario/blob/main/how_to/venv_setting.png)
 
 
 ## Install the dependencies
@@ -46,5 +46,5 @@ It's better if you click on any place before you run this program.
 
 ## My Demo Video
 
-[image](https://github.com/linbeta/Super_Mario/blob/main/how_to/mario_demo%20%E2%80%90%20Made%20with%20Clipchamp.gif?raw=true)
+![image](https://github.com/linbeta/Super_Mario/blob/main/how_to/mario_demo%20%E2%80%90%20Made%20with%20Clipchamp.gif?raw=true)
 
