@@ -1,10 +1,50 @@
-# Super_Mario
-* Hello all this is a simple python program which tries to use our body as a controller for the super mario game
-* Here I have used media pipe to detect the body posture
-* then based on the based posture I have stimulated the keyboard input using pynput module of the python
-* as single press of the key is not sufficient to make the mario move I have used multithreading concept to simultaneously run different methods
-* In order to run this program in your machine just install the dependencies like opencv, mediapipe, pynput and run the main.py file
-* after that stand in front of the camera in center position
-* That's it you are good to go now
+# Motion Detection Game (Super Mario)
 
-<img src = "https://github.com/BadagalaAdarsh/Super_Mario/blob/main/super_mario_gif.gif">
+This is an awesome project using opencv to detect motions to trigger key-press signals.
+The demo video was using the classic Super Mario to showcase the program.
+(you could play it here: https://supermario-game.com/)
+
+Original project link：https://github.com/BadagalaAdarsh/Super_Mario
+
+## What I modified
+
+On line 30 in ```main.py```, make the image flip, it's easier for me to control my motion on mirror image.
+```Python
+image = cv2.flip(image, 1)
+```
+
+In ```controls.py``` switch the keys ```a``` and ```d```, so that it would follow the change with the flipped mirror image.
+
+
+## Download this repo
+
+On your machine, open the terminal in your target directory and use following command to clone.
+```buildoutcfg
+git clone https://github.com/linbeta/Super_Mario.git
+```
+
+Make sure your Python interpreter and venv is set up correctly.
+
+[!image](how_to/select_interpreter.png)
+
+[!image](how_to/venv_setting.png)
+
+
+## Install the dependencies
+
+run the command below:
+```buildoutcfg
+pip install -r requirements.txt
+```
+
+And that's it! Have Fun
+
+## Notice
+
+It would be a little annoying if you place the text cursor on the wrong place. 😂
+It's better if you click on any place before you run this program.
+
+## My Demo Video
+
+[image](how_to/mario_demo ‐ Made with Clipchamp.gif)
+

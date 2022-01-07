@@ -41,10 +41,10 @@ def move_left():
         keyboard.release(Key.space)
         space_pressed = False
 
-    if key == 'd':
+    if key == 'a':
         keyboard.release(key)
 
-    key = 'a'
+    key = 'd'
     for i in range(100):
         keyboard.press(key)
 
@@ -57,10 +57,10 @@ def move_right():
         keyboard.release(Key.space)
         space_pressed = False
 
-    if key == 'a':
+    if key == 'd':
         keyboard.release(key)
 
-    key = 'd'
+    key = 'a'
     for i in range(100):
         keyboard.press(key)
 

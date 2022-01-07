@@ -1,5 +1,5 @@
 # importing the libraries
-import cv2 
+import cv2
 import mediapipe as mp
 from controls import *
 import threading
@@ -27,6 +27,7 @@ with mp_pose.Pose(min_detection_confidence=0.5, min_tracking_confidence= 0.5) as
         # recoloring the image back to bgr
         image.flags.writeable = True 
         image = cv2.cvtColor(image, cv2.COLOR_RGB2BGR)
+        image = cv2.flip(image, 1)
 
         # extracting the landmarks
         try:
