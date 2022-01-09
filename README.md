@@ -1,6 +1,6 @@
 # Motion Detection Game (Super Mario)
 
-This is an awesome project using opencv to detect motions to trigger key-press signals.
+This is an awesome project using opencv to detect motions and trigger key-press signals.
 The demo video was using the classic Super Mario to showcase the program.
 (you could play it here: https://supermario-game.com/)
 
@@ -37,12 +37,12 @@ run the command below:
 pip install -r requirements.txt
 ```
 
-And that's it! Have Fun
+And that's it! Have Fun!
 
 ## Notice
 
 It would be a little annoying if you place the text cursor on the wrong place. 😂
-It's better if you click on any place before you run this program.
+It's better if you click on a place that won't take keyboard inputs before you run this program.
 
 ## My Demo Video
 
